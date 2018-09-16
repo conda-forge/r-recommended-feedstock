@@ -8,6 +8,8 @@ build:
   number: 0
 
 requirements:
+  host:
+      - r-base {{ version }}
   run:
     - r-base {{ version }}
     - r-boot

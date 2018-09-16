@@ -1,4 +1,4 @@
-{% set version = "3.4.1" %}
+{% set version = "3.5.1" %}
 
 package:
   name: r-recommended
@@ -6,7 +6,6 @@ package:
 
 build:
   number: 0
-  skip:  # [win32]
 
 requirements:
   run:
@@ -31,7 +30,7 @@ requirements:
 # if any dependency is missing the test env creation will fail
 test:
   commands:
-    - $R -e "library('MASS')"  # [not win]
+    - $R -e "library('MASS')"           # [not win]
     - "\"%R%\" -e \"library('MASS')\""  # [win]
 
 about:
@@ -43,3 +42,7 @@ extra:
   recipe-maintainers:
     - johanneskoester
     - bgruening
+    - daler
+    - jdblischak
+    - cbrueffer
+    - dbast

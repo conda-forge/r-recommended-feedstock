@@ -1,18 +1,17 @@
-{% set version = "3.5.1" %}
 
 package:
   name: r-recommended
-  version: {{ version }}
+  version: {{ r_base }}
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
 requirements:
   host:
-      - r-base {{ version }}
+      - r-base
   run:
-    - r-base {{ version }}
+    - r-base
     - r-boot
     - r-class
     - r-cluster
@@ -44,9 +43,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast

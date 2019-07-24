@@ -5,13 +5,13 @@ package:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
 requirements:
   host:
-      - r-base {{ r_base }}
+      - r-base
   run:
-    - r-base {{ r_base }}
+    - r-base
     - r-boot
     - r-class
     - r-cluster

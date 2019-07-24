@@ -1,8 +1,7 @@
-{% set version = "3.5.1" %}
 
 package:
   name: r-recommended
-  version: {{ version }}
+  version: {{ r_base }}
 
 build:
   noarch: generic
@@ -10,9 +9,9 @@ build:
 
 requirements:
   host:
-      - r-base {{ version }}
+      - r-base {{ r_base }}
   run:
-    - r-base {{ version }}
+    - r-base {{ r_base }}
     - r-boot
     - r-class
     - r-cluster

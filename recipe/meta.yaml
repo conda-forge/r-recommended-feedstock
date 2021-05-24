@@ -37,8 +37,10 @@ test:
 
 about:
   home: http://www.r-project.org/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   summary: 'R is a free software environment for statistical computing and graphics.'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:

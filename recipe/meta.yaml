@@ -5,7 +5,7 @@ package:
 
 build:
   noarch: generic
-  number: 1005
+  number: 1006
 
 requirements:
   host:

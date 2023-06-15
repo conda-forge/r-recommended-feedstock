@@ -1,11 +1,11 @@
-About r-recommended
-===================
+About r-recommended-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-recommended-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.r-project.org/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-recommended-feedstock/blob/main/LICENSE.txt)
 
 Summary: R is a free software environment for statistical computing and graphics.
 
